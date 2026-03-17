@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title | default: site.title }}</title>
+    {% seo %}
+    <script async src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=pub-0000000000000000' crossorigin='anonymous'></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0000000000"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-0000000000');
+    </script>
+</head>
+<body>
+    <header><h1>{{ site.title }}</h1></header>
+    <main>{{ content }}</main>
+    <footer>&copy; {{ site.time | date: '%Y' }} Automatica INC</footer>
+</body>
+</html>
