@@ -1,0 +1,8 @@
+title: Automated Niche Authority
+description: Discover the latest automated insights.
+url: "https://ricardobag1.github.io"
+baseurl: "/autoblog-niche-1"
+theme: minima
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
